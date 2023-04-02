@@ -1,0 +1,29 @@
+/*import google fonts*/
+
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans:wght@300&display=swap");
+
+/*import components*/
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/*general fonts*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	background-color: #fbfbfff5;
+}
+
+h1, h2, h3 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+}
+
+a { 
+	text-decoration:none; 
+}
